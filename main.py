@@ -23,7 +23,7 @@ def replace_pixels(image_path, output_path):
 
 # Change input path for different pictures
 # Best for low-res portraits
-input_image_path = 'Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg'
+input_image_path = 'MonaLisa.jpg'
 output_text_path = 'output_pic.txt'
 replace_pixels(input_image_path, output_text_path)
 subprocess.Popen(['notepad.exe', output_text_path])
